@@ -23,3 +23,5 @@ console.log(10 === '10'); // false
 let age = 19;
 let driving = (age <18 ) ?"not eligible" : "eligible";
 console. log (driving);
+
+// concept clear of operators in javascript 
