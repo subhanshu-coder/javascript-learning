@@ -58,3 +58,26 @@ console.log(arr.length);
 if(arr.length == 0) {
     console.log("this is empty array");
 }
+
+// checking switch statement
+// a switch statement is basically a cleaner way to handle multiple conditions when you’re checking the same
+//  variable against different values. It’s more readable when you have many cases. An if...else chain, 
+// on the other hand, is more flexible, since you can check different conditions, not just equality. 
+// So, if you have many exact matches, a switch is often cleaner; if you have complex conditions, 
+// you might still use if...else.
+
+// example of switch statement
+let day = 3;
+switch(day) {
+    case 1:
+        console.log("monday");
+        break;
+    case 2:
+        console.log("tuesday");
+        break;
+    case 3:
+        console.log("wednesday");
+        break;
+    default:
+        console.log("invalid day");
+}
