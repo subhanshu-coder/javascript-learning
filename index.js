@@ -38,6 +38,6 @@
 // const we can not redeclare the variable and we can not reassign the variable
 
 
-
+// it's nice feeling to back on the track of learning javascript 
 
 
