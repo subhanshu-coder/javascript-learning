@@ -4,16 +4,16 @@ big int, number, string, boolean, null, undefined, symbol
 non-primitive data types are object, array, function
 */
 
-/*let marks = 90;
+let marks = 90;
    marks = "hello";
    marks = true;
 console.log(marks);
-*/
 
-/*
+
+
 let marks;
 console.log(marks); // undefined
-*/
+
 
 /*let marks = null;
 console.log(typeof(marks));*?
@@ -21,7 +21,7 @@ console.log(typeof(marks));*?
 // null is an object but it is a primitive data type
 */
 
-/* 
+/*
 let marks ="100";
 let firstName = "rahul";
 let lastName = "sharma";
