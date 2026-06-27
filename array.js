@@ -6,3 +6,13 @@ london, pairis, new york, tokyo'. and access
 let cities = ['london', 'paris', 'new york', 'tokyo'];
 let favoriteCity = cities[2];
 console.log(cities[2]);
+
+//object testing
+
+let obj = {
+    name: "john",
+    age : 21,
+    "full name" : "john Lock",
+}
+
+console.log(obj)
