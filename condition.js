@@ -80,4 +80,10 @@ switch(day) {
         break;
     default:
         console.log("invalid day");
-}
+} 
+
+// ternary operator condition
+
+let age1 = 16;
+let text = (age1 < 18) ? "minor" : "Adult" ;
+console.log(text);
