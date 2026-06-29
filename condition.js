@@ -83,7 +83,17 @@ switch(day) {
 } 
 
 // ternary operator condition
+// A ternary operator is a shorthand way of writing an if...else statement in a single line.
+// (condition) ? expression1 : expression2
 
 let age1 = 16;
 let text = (age1 < 18) ? "minor" : "Adult" ;
 console.log(text);
+
+// 2nd example
+
+let price = 20;
+let isMember = 'true';
+let discount = isMember? 0.2 : 0;
+let total = 10 - (price * discount);
+console.log(total)
