@@ -121,3 +121,12 @@ for (let n = 1; n < arr.length; n++) {
 }
 
 console.log(largest);
+
+let arr = [1, 2, 3, 4, 5];
+let reversed = [];
+
+for (let o = arr.length - 1; o >= 0; o--) {
+    reversed.push(arr[o]);
+}
+
+console.log(reversed);
