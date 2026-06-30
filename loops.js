@@ -81,3 +81,9 @@ for (let j = 1; j <= 20; j++) {
         console.log(j);
     }
 }
+
+for (let k = 1; k <= 15; k++) {
+    if (k % 2 !== 0) {
+        console.log(k);
+    }
+}
