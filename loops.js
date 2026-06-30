@@ -2,14 +2,55 @@ for (let i =1; i<= 10; i++ ){
     console.log("hello dunia");
 }
 
+// for convert into while loop
+
+let d =1
+while( d<=10) {
+    console.log("prince");
+    d++;
+}
+
 for (let a =5; a>=1 ; a--){
     console.log(a);
 }
 
-for (let b = 1; b<=6; b++) {
-    if(b ==4){
-        break;
-}   else {
-    console.log(b)
+//while loop
+let e =5;
+while( e>=1 ){
+    console.log(e);
+    e--;
 }
+
+// for (let b = 1; b<=6; b++) {
+//     if(b ==4){
+//         break;
+// }   else {
+//     console.log(b)
+// }
+// }
+
+let f =1;
+while(f<6) {
+     if(f==3){
+    break;
+     } else 
+        console.log(f)
+    f++;
 }
+
+// for (let c =1; c<=4; c++){
+//     if (c==3)
+//         continue;
+//     else
+//         console.log(c)
+    
+// }
+
+let c =1
+  while(c <5){
+    if(c==3)
+        continue;
+    else 
+        console.log("hii");
+    c++;
+  }
