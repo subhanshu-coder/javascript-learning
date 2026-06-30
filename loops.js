@@ -110,3 +110,14 @@ for (let m = 0; m < str.length; m++) {
 }
 
 console.log(count);
+
+let arr = [5, 12, 9, 25, 18];
+let largest = arr[0];
+
+for (let n = 1; n < arr.length; n++) {
+    if (arr[n] > largest) {
+        largest = arr[n];
+    }
+}
+
+console.log(largest);
