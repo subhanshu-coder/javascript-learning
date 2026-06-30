@@ -87,3 +87,9 @@ for (let k = 1; k <= 15; k++) {
         console.log(k);
     }
 }
+
+let num = 7;
+
+for (let l = 1; l <= 10; l++) {
+    console.log(num * l);
+}
