@@ -65,7 +65,13 @@ let c =1
 
 //   problems
 let sum = 0;
-for (let i = 1; i <= 5; i++) {
-    sum += i;
+for (let g = 1; g <= 5; g++) {
+    sum += g;
 }
 console.log(sum);
+
+let h = 0;
+while (h < 3) {
+    console.log(i);
+    h++;
+}
