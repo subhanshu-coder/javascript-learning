@@ -29,6 +29,13 @@ while( e>=1 ){
 // }
 // }
 
+// do-while loops
+let b = 1;
+do{
+    console.log(b)
+    b++;
+} while(b<4);
+
 let f =1;
 while(f<6) {
      if(f==3){
@@ -54,3 +61,11 @@ let c =1
         console.log("hii");
     c++;
   }
+
+
+//   problems
+let sum = 0;
+for (let i = 1; i <= 5; i++) {
+    sum += i;
+}
+console.log(sum);
