@@ -93,3 +93,20 @@ let num = 7;
 for (let l = 1; l <= 10; l++) {
     console.log(num * l);
 }
+
+let str = "javascript";
+let count = 0;
+
+for (let m = 0; m < str.length; m++) {
+    if (
+        str[m] === "a" ||
+        str[m] === "e" ||
+        str[m] === "i" ||
+        str[m] === "o" ||
+        str[m] === "u"
+    ) {
+        count++;
+    }
+}
+
+console.log(count);
