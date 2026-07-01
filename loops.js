@@ -38,7 +38,7 @@ do{
 
 let f =1;
 while(f<4) {
-     if(f==3){
+     if(f==2){
     break;
      } else 
         console.log(f)
