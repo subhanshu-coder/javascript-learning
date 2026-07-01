@@ -54,7 +54,7 @@ while(f<4) {
 // }
 
 let c =1
-  while(c <5){
+  while(c <10){
     if(c==3)
         continue;
     else 
