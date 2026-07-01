@@ -37,7 +37,7 @@ do{
 } while(b<4);
 
 let f =1;
-while(f<6) {
+while(f<4) {
      if(f==3){
     break;
      } else 
