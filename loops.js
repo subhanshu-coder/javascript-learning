@@ -122,11 +122,21 @@ for (let n = 1; n < arr.length; n++) {
 
 console.log(largest);
 
-let arr = [1, 2, 3, 4, 5];
+let arr2 = [1, 2, 3, 4, 5];
 let reversed = [];
 
-for (let o = arr.length - 1; o >= 0; o--) {
-    reversed.push(arr[o]);
+for (let o = arr2.length - 1; o >= 0; o--) {
+    reversed.push(arr2[o]);
 }
 
 console.log(reversed);
+
+
+// write a for loops that loops through rray and stop the loop when it finds chai
+
+let arr1 = ["green tea", "black tea", "chai", "oolong tea"];
+    for (let p = 0; p < arr1.length; p++) {
+        if (arr1[p] === "chai") {
+            break;
+        }
+    };
