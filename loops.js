@@ -5,7 +5,7 @@ for (let i =1; i<= 10; i++ ){
 // for convert into while loop
 
 let d =1
-while( d<=10) {
+while( d<=9) {
     console.log("prince");
     d++;
 }
