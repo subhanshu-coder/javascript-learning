@@ -15,7 +15,7 @@ for (let a =5; a>=1 ; a--){
 }
 
 //while loop
-let e =5;
+let e =10;
 while( e>=1 ){
     console.log(e);
     e--;
