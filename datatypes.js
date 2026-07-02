@@ -4,7 +4,7 @@ big int, number, string, boolean, null, undefined, symbol
 non-primitive data types are object, array, function
 */
 
-let marks = 90;
+let marks = 100;
    marks = "hello";
    marks = true;
 console.log(marks);
