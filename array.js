@@ -81,7 +81,7 @@ console.log(arr3);
 
 //decending string order
 
-let city = ['mumbai', 'delhi', 'up', 'bhopal'];
+let city = ['mumbai', 'delhi', 'up', 'bhopal', 'bengaluru', 'chennai', 'kolkata', 'pune', 'hyderabad'];
 city.sort().reverse();
 console.log(city);
 
