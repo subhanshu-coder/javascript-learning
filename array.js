@@ -75,7 +75,7 @@ Descending: arr.sort((a, b) => b - a)
 
 */
 
-let arr3 = [1,10,5,7,4,9];
+let arr3 = [1,10,5,7,2,4,9];
 arr3.sort((a,b) => a-b);
 console.log(arr3);
 
