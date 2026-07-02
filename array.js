@@ -51,7 +51,7 @@ crr.map((number,index) => {
 
 // filter check
 
-let arr1 = [1,2, 'john', 'jack', null];
+let arr1 = [1,2,3, 'john', 'jack',undefined, null];
 let arr2 = arr1.filter ((value) => {
     if(typeof (value) == 'string') {
         return true;
