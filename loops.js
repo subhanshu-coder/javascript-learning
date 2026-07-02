@@ -65,7 +65,7 @@ let c =1
 
 //   problems
 let sum = 0;
-for (let g = 1; g <= 5; g++) {
+for (let g = 1; g <= 10; g++) {
     sum += g;
 }
 console.log(sum);
