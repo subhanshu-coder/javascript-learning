@@ -111,7 +111,7 @@ for (let m = 0; m < str.length; m++) {
 
 console.log(count);
 
-let arr = [5, 12, 9, 25,55, 18];
+let arr = [5, 12, 9, 25, 55 , 45 , 18];
 let largest = arr[0];
 
 for (let n = 1; n < arr.length; n++) {
@@ -134,7 +134,7 @@ console.log(reversed);
 
 // write a for loops that loops through rray and stop the loop when it finds chai
 
-let arr1 = ["green tea", "black tea", "chai", "oolong tea"];
+let arr1 = ["green tea", "black tea", "chai", "oolong tea" ];
     for (let p = 0; p < arr1.length; p++) {
         if (arr1[p] === "chai") {
             break;
