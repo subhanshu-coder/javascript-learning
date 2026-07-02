@@ -17,7 +17,7 @@ if(age <= 17) {
 
 // if statement checking if a number is even or odd
 
-let run = 10;
+let run = 15;
 console.log("i am running");
 if(run *2 == 30) {
     console.log("this is even number");
