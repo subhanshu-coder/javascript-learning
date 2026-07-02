@@ -71,7 +71,7 @@ for (let g = 1; g <= 5; g++) {
 console.log(sum);
 
 let h = 0;
-while (h < 3) {
+while (h < 2) {
     console.log(i);
     h++;
 }
