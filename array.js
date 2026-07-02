@@ -85,7 +85,7 @@ let city = ['mumbai', 'delhi', 'up', 'bhopal'];
 city.sort().reverse();
 console.log(city);
 
-let arr4 = [1,2,3];
+let arr4 = [1,2,3,5];
 arr4.push(4);
 arr4.pop();
 console.log(arr4);
