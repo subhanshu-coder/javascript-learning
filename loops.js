@@ -122,7 +122,7 @@ for (let n = 1; n < arr.length; n++) {
 
 console.log(largest);
 
-let arr2 = [1, 2, 3, 4, 5];
+let arr2 = [1, 2, 3, 4, 5,6];
 let reversed = [];
 
 for (let o = arr2.length - 1; o >= 0; o--) {
