@@ -16,3 +16,12 @@ function pass (){
     }
 }
 pass(); // function call
+
+// parameter function or argument
+// a,b is parameter and 10,20 is arguments
+ 
+function sum (a,b){
+    console.log("this is the sum of a and b:", a+b);
+
+}
+sum(10,20); // function call with arguments declare
