@@ -10,3 +10,9 @@ function greet (){
 // without function call it will not execute or not print anything
 greet(); // function call
 
+function pass (){
+    for (let i =1; i<=100; i++){
+        console.log(i);
+    }
+}
+pass(); // function call
