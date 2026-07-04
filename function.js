@@ -33,3 +33,12 @@ function add (x,y){
 }
 let result = add(2,5);
 console.log ("this is result" + " " + result);
+
+/* The most useful functions work like this:
+
+Parameters - some values are sent to the function
+Arguments - some values are received by the function
+Function Code - some work is done inside the function
+Return Output - some value is returned from the function
+
+*/
