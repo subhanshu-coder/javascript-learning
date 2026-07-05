@@ -70,3 +70,11 @@ let oldgreed = function (a,b){
 let valua  = oldgreed (12, 12);
 console.log(valua);
 
+// arrow function 
+let answor = (firstName , lastName) => {
+    let also = firstName + " " + lastName;
+    return also; 
+}
+// answor (subhanshu , pal);
+console.log (answor("subhanshu" , "pal"));
+
