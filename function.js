@@ -46,9 +46,13 @@ Return Output - some value is returned from the function
 
 */
 
+// create in variable 
 const old = function(a,b){
     return a * b;
 }
 
 let ans = old(1,2);
 console.log(ans);
+
+//  arrow function
+
