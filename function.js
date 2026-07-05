@@ -30,6 +30,9 @@ sum(10,20); // function call with arguments declare
 // return function
 function add (x,y){
     return x+y;
+    // unreachable statements 
+    // let a =10;
+    // let b = 15;
 }
 let result = add(2,5);
 console.log ("this is result" + " " + result);
