@@ -54,5 +54,19 @@ const old = function(a,b){
 let ans = old(1,2);
 console.log(ans);
 
-//  arrow function
+
+function sold (a,b) {
+    return a * b;
+}
+let value = sold(12, 12);
+console.log(value);
+
+// start with the variable 
+
+let oldgreed = function (a,b){
+    let ans1 = (a * b);
+    return ans1;
+}
+let valua  = oldgreed (12, 12);
+console.log(valua);
 
