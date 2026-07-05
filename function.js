@@ -45,3 +45,10 @@ Function Code - some work is done inside the function
 Return Output - some value is returned from the function
 
 */
+
+const old = function(a,b){
+    return a * b;
+}
+
+let ans = old(1,2);
+console.log(ans);
