@@ -74,6 +74,11 @@ console.log(valua);
 let answor = (firstName , lastName) => {
     let also = firstName + " " + lastName;
     return also; 
+    // unreachable statements
+    // let a = 10;
+    // let b = 15;
+    // let c = a + b;
+    // console.log(c);
 }
 let ans = answor ("subhanshu" , "pal");
 console.log(answor);
