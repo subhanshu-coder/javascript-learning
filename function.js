@@ -75,6 +75,6 @@ let answor = (firstName , lastName) => {
     let also = firstName + " " + lastName;
     return also; 
 }
-// answor (subhanshu , pal);
-console.log (answor("subhanshu" , "pal"));
+let ans = answor ("subhanshu" , "pal");
+console.log(answor);
 
