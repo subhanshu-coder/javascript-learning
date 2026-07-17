@@ -13,6 +13,11 @@ function person(first, last, age, eye) {
     this.eyecolor = eye;
 }
 // The value of this will become the new object when a new object is created.
-
 const myFather = new person("john", "doe", 15, "blue");
+
+// Now we can use new Person() to create many new Person objects:
+const myMOTHER = new person ( "jane", "doe", 45, "green");
+const mySISTER = new person ( "jane", "doe", 45, "green");
+const myBROTHER = new person ( "jane", "doe", 45, "green");
+
 console.log("my father name is " + myFather.firstName + " , his age is " + myFather.age + " and his eye color is " + myFather.eyecolor);
