@@ -20,4 +20,10 @@ const myMOTHER = new person ( "jane", "doe", 45, "green");
 const mySISTER = new person ( "jane", "doe", 45, "green");
 const myBROTHER = new person ( "jane", "doe", 45, "green");
 
+
+// To add a new property, you must add it to the constructor function prototype:
+person.prototype.nationality = "English";
+
+
 console.log("my father name is " + myFather.firstName + " , his age is " + myFather.age + " and his eye color is " + myFather.eyecolor);
+console.log("The nationality of my father is " + myFather.nationality);
