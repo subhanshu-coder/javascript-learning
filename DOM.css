@@ -1,4 +1,9 @@
 .box {
-    background: #000;
+    background: #378dbe;
     color : #fff;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 5px;
+    border: 1px solid black;
 }
