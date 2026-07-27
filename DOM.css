@@ -1,4 +1,4 @@
-.box {
+/* .box {
     background: #378dbe;
     color : #fff;
     height: 100px;
@@ -6,4 +6,12 @@
     text-align: center;
     margin: 5px;
     border: 1px solid black;
+} */
+
+.content{
+    color:red ;
+}
+
+.newclass{
+    background: #378dbe;
 }

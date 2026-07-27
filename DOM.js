@@ -1,4 +1,11 @@
-let divs = document.querySelectorAll(".box");
-divs[0].innerText = "hello";
-divs[1].innerText = "hello";
-divs[2].innerText = "hello";
+// let newBtn = document.createElement("button");
+// newBtn.innerText = "Click me";
+
+// newBtn.style.color = "white";
+// newBtn.style.backgroundColor = "blue";
+
+// document.querySelector("body").prepend(newBtn);
+
+// problem 2
+
+let para = document.querySelector("p");
