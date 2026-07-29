@@ -1,10 +1,10 @@
-function changetext () {
-    let fpara = document.querySelector(".content");
-    fpara.textContent = "hello i am changed"
-}
-    let fpara = document.querySelector(".content");
+// function changetext () {
+//     let fpara = document.querySelector(".content");
+//     fpara.textContent = "hello i am changed"
+// }
+//     let fpara = document.querySelector(".content");
 
-fpara.addEventListener("click", changetext);
+// fpara.addEventListener("click", changetext);
 
 // ques 1
 let modeBtn = document.querySelector("#mode");
