@@ -6,8 +6,12 @@ function asyncfunc() {
         }, 5000);
     })
 }
-let p1 = asyncfunc();
 
+console.log("data loading...")
+let p1 = asyncfunc();
+p1.then((res) => {
+    console.log("i am in then block");
+})
 
 
 
