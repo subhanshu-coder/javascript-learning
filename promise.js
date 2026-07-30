@@ -4,7 +4,7 @@
 // });
 
 function getdata(dataId, getNextData){
-    return new promise ((resolve , reject) => {
+    return new Promise ((resolve , reject) => {
         setTimeout(() => {
             console.log(`data is fetched for ${dataId}`);
             resolve("success");
