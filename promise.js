@@ -1,4 +1,18 @@
-let promise = new Promise((resolve, reject) => {
-    console.log("hii i am good");
-    resolve()
-});
+// let promise = new Promise((resolve, reject) => {
+//     console.log("hii i am good");
+//     resolve()
+// });
+
+function getdata(dataId, getNextData){
+    return new promise ((resolve , reject) => {
+        setTimeout(() => {
+            console.log(`data is fetched for ${dataId}`);
+            resolve("success");
+            if (getNextData){
+                getNextData();
+
+            }
+
+        }, 5000);
+    });
+}
