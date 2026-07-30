@@ -1,19 +1,36 @@
-const getPromise = () => {
+function asyncfunc() {
     return new Promise((resolve, reject) => {
-        console.log("hii i am good");
-        // resolve("success");
-        reject("error");
-    });
-};
+        setTimeout (() => {
+            console.log("data is fetched");
+            resolve("success");
+        }, 5000);
+    })
+}
+let p1 = asyncfunc();
 
-let promise = getPromise (); //calling the function or saving in promise variable
-promise.then((res) => {  //then block will be executed when promise is resolved
-    console.log("i am in then block");
-});
 
-promise.catch((err) => {  //promise catch block will be executed when promise is rejected
-    console.log("i am in catch block"); 
-})
+
+
+
+
+
+
+// const getPromise = () => {
+//     return new Promise((resolve, reject) => {
+//         console.log("hii i am good");
+//         // resolve("success");
+//         reject("error");
+//     });
+// };
+
+// let promise = getPromise (); //calling the function or saving in promise variable
+// promise.then((res) => {  //then block will be executed when promise is resolved
+//     console.log("i am in then block");
+// });
+
+// promise.catch((err) => {  //promise catch block will be executed when promise is rejected
+//     console.log("i am in catch block"); 
+// })
 
 
 
