@@ -1,4 +1,4 @@
-function asyncfunc() {
+function asyncfunc1() {
     return new Promise((resolve, reject) => {
         setTimeout (() => {
             console.log("data is fetched");
@@ -7,10 +7,23 @@ function asyncfunc() {
     })
 }
 
+function asyncfunc2 () {
+    return new Promise((resolve, reject) => {
+        setTimeout (() => {
+            // console.log("data is fetched");
+            resolve("success");
+        }, 5000);
+    })
+}
+
 console.log("data loading...")
-let p1 = asyncfunc();
+let p1 = asyncfunc1();
 p1.then((res) => {
-    console.log("i am in then block");
+    console.log("fetching data 2...")
+    let p2 = asyncfunc2();
+    p2.then((res) => {
+        // console.log("all data fetched");
+    })
 })
 
 
