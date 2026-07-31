@@ -48,3 +48,10 @@ to handle the execution of both synchronous and asynchronous taasks by manging t
 Closure (in short)
 
 A closure is a function that remembers and can access variables from its outer (lexical) scope even after the outer function has finished executing.
+
+What is promise chaining?
+
+a technique use to call then() multiple times in sequence to handle the results of a promise
+
+Which of the following best describes prototypal inheritance in JavaScript?
+object inherit directly from other objects
