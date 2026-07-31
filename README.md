@@ -41,3 +41,10 @@ document.replaceChild():	Replace an HTML element
 Adding Event Handlers
 Method	Description
 document.getElementById(id).onclick = function(){code}	Adding event handler code to an onclick event
+
+<!-- event loop definition  -->
+to handle the execution of both synchronous and asynchronous taasks by manging the call stack and callback queue
+
+Closure (in short)
+
+A closure is a function that remembers and can access variables from its outer (lexical) scope even after the outer function has finished executing.
